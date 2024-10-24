@@ -1,0 +1,51 @@
+@font-face {
+  font-family: "Pretendard-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff")
+    format("woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LINESeedKR-Bd";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/LINESeedKR-Bd.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  font-family: "Pretendard-Regular";
+  font-size: 15px;
+  color: var(--color-text);
+}
+
+:root {
+  /* 색상 */
+  --color-primary: #f0f5f9;
+  --color-secondary: #f0f5f7;
+  --color-third: #e2ebf3;
+  --color-forth: #d4e1ed;
+  --color-fifth: #c5d7e7;
+  --color-sixth: #b7cde1;
+  --color-seventh: #7b7e81;
+  --color-text: #9ea0a1;
+  --color-text-second: #6f9ac3;
+  --color-link: ;
+
+  /* font size */
+  --font-size--base: 16px;
+  --font-size--x--small: 10px;
+  --font-size--small: 12px;
+  --font-size--large: 20px;
+  --font-size--x--large: 24px;
+
+  /* 센터링 & 컨테이닝 */
+  --max-width--pc: 1280px;
+  --max-width--mobile: 768px;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
